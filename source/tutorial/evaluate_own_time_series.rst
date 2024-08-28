@@ -1,4 +1,4 @@
-.. evaluate_own_method:
+.. _evaluate_own_method:
 
 Evaluate your own time series
 =============================

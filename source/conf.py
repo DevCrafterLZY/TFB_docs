@@ -8,7 +8,7 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../../TFB'))
+sys.path.insert(0, os.path.abspath('../TFB'))
 
 project = 'TFB'
 copyright = '2024, Xiangfei Qiu, Xingjian Wu, Buang Zhang, Junyang Du'
@@ -21,7 +21,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.autodoc',
-    'myst_parser',  # markdown
 ]
 
 templates_path = ['_templates']

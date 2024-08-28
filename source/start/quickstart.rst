@@ -53,9 +53,9 @@ experiment result as the following:
 Steps to develop your own method
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 We provide tutorial about how to develop your own method, you
-can :doc:`click here <develop_own_method>`.
+can click :ref:`here <develop_own_method>`.
 
 Steps to evaluate on your own time series
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 We provide tutorial about how to evaluate on your own time series, you
-can :doc:`click here <evaluate_own_time_series>`.
+can click :ref:`here <evaluate_own_method>`.

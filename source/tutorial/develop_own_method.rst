@@ -1,4 +1,4 @@
-.. develop_own_method:
+.. _develop_own_method:
 
 Develop your own method
 =======================
