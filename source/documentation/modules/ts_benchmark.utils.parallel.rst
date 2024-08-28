@@ -1,0 +1,30 @@
+ts\_benchmark.utils.parallel package
+====================================
+
+ts\_benchmark.utils.parallel.base module
+----------------------------------------
+
+.. automodule:: ts_benchmark.utils.parallel.base
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
+
+ts\_benchmark.utils.parallel.ray\_backend module
+------------------------------------------------
+
+.. automodule:: ts_benchmark.utils.parallel.ray_backend
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
+
+ts\_benchmark.utils.parallel.sequential\_backend module
+-------------------------------------------------------
+
+.. automodule:: ts_benchmark.utils.parallel.sequential_backend
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
+
