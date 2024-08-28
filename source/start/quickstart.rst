@@ -50,12 +50,3 @@ experiment result as the following:
 
    sh ./scripts/multivariate_forecast/ILI_script/DLinear.sh
 
-Steps to develop your own method
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-We provide tutorial about how to develop your own method, you
-can click :ref:`here <develop_own_method>`.
-
-Steps to evaluate on your own time series
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-We provide tutorial about how to evaluate on your own time series, you
-can click :ref:`here <evaluate_own_method>`.
