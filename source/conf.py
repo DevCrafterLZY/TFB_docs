@@ -54,4 +54,6 @@ autodoc_mock_imports = [
     "lightgbm",
     "sklearn",
     "sklearn.preprocessing",
+    "sympy",
+    "flask",
 ]
