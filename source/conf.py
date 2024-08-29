@@ -11,8 +11,10 @@ import sys
 sys.path.insert(0, os.path.abspath('../TFB'))
 
 project = 'TFB'
-copyright = '2024, Xiangfei Qiu, Xingjian Wu, Buang Zhang, Junyang Du'
-author = 'Xiangfei Qiu, Xingjian Wu, Buang Zhang, Junyang Du'
+copyright = ('2024, Xiangfei Qiu, Jilin Hu, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, '
+             'Aoying Zhou, Christian S. Jensen, Zhenli Sheng, Bin Yang')
+author = ('Xiangfei Qiu, Jilin Hu, Lekui Zhou, Xingjian Wu, Junyang Du, Buang Zhang, Chenjuan Guo, Aoying Zhou, '
+          'Christian S. Jensen, Zhenli Sheng, Bin Yang')
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
