@@ -10,6 +10,12 @@ from ts_benchmark.evaluation.metrics import METRICS
 
 
 def encode_params(params):
+    """
+    Encodes the parameters into a formatted string with key-value pairs.
+
+    :param params: A dictionary of parameters to encode.
+    :return: A string representing the encoded parameters.
+    """
     encoded_pairs = []
     for key, value in sorted(params.items()):
         if isinstance(value, (np.floating, float)):

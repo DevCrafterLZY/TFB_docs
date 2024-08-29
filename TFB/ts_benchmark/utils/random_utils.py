@@ -7,6 +7,12 @@ import torch
 
 
 def fix_random_seed(seed: Optional[int] = 2021) -> NoReturn:
+    """
+    Fixes the random seed for Python, PyTorch, and NumPy to ensure reproducibility.
+
+    :param seed: The seed value to be used for random number generation.
+    :return: None
+    """
     if seed is None:
         return
 
@@ -16,6 +22,12 @@ def fix_random_seed(seed: Optional[int] = 2021) -> NoReturn:
 
 
 def fix_all_random_seed(seed: Optional[int] = 2021) -> NoReturn:
+    """
+    Fixes the random seed for Python, PyTorch, NumPy, and CUDA.
+
+    :param seed: The seed value to be used for random number generation.
+    :return: None
+    """
     if seed is None:
         return
 

@@ -106,6 +106,14 @@ class SlidingWindowDataLoader:
 
 
 def train_val_split(train_data, ratio, seq_len):
+    """
+    Splits the dataset into training and validation sets based on the given ratio.
+
+    :param train_data: The full dataset to be split.
+    :param ratio: The ratio of the training data. If 1, no split is performed.
+    :param seq_len: The sequence length to adjust the split, ensuring sequences remain complete.
+    :return: A tuple containing the training data and validation data. If the ratio is 1, the second value is None.
+    """
     if ratio == 1:
         return train_data, None
 
@@ -186,6 +194,17 @@ def get_time_mark(
 
 
 def forecasting_data_provider(data, config, timeenc, batch_size, shuffle, drop_last):
+    """
+    Provides the dataset and data loader for forecasting tasks.
+
+    :param data: The dataset to be used for forecasting.
+    :param config: Configuration object containing sequence length, prediction length, label length, frequency, and other parameters.
+    :param timeenc: Indicator for whether to use time encoding.
+    :param batch_size: The size of batches for the data loader.
+    :param shuffle: Whether to shuffle the data before loading.
+    :param drop_last: Whether to drop the last incomplete batch if the dataset size is not divisible by the batch size.
+    :return: A tuple containing the dataset and data loader.
+    """
     dataset = DatasetForTransformer(
         dataset=data,
         history_len=config.seq_len,
@@ -206,6 +225,12 @@ def forecasting_data_provider(data, config, timeenc, batch_size, shuffle, drop_l
 
 
 class DatasetForTransformer:
+    """
+    A dataset class for time series forecasting using transformers.
+
+    This class generates sequences of historical and future data
+    based on the provided dataset, history length, and prediction length.
+    """
     def __init__(
         self,
         dataset: pd.DataFrame,
@@ -256,55 +281,4 @@ class DatasetForTransformer:
         seq_x_mark = torch.tensor(seq_x_mark, dtype=torch.float32)
         seq_y_mark = torch.tensor(seq_y_mark, dtype=torch.float32)
         return seq_x, seq_y, seq_x_mark, seq_y_mark
-
-
-class SegLoader(object):
-    def __init__(self, data, win_size, step, mode="train"):
-        self.mode = mode
-        self.step = step
-        self.win_size = win_size
-        self.data = data
-        self.test_labels = data
-
-    def __len__(self):
-        """
-        Number of images in the object dataset.
-        """
-        if self.mode == "train":
-            return (self.data.shape[0] - self.win_size) // self.step + 1
-        elif self.mode == "val":
-            return (self.data.shape[0] - self.win_size) // self.step + 1
-        elif self.mode == "test":
-            return (self.data.shape[0] - self.win_size) // self.step + 1
-        else:
-            return (self.data.shape[0] - self.win_size) // self.win_size + 1
-
-    def __getitem__(self, index):
-        index = index * self.step
-        if self.mode == "train":
-            return np.float32(self.data[index:index + self.win_size]), np.float32(self.test_labels[0:self.win_size])
-        elif (self.mode == 'val'):
-            return np.float32(self.data[index:index + self.win_size]), np.float32(self.test_labels[0:self.win_size])
-        elif (self.mode == 'test'):
-            return np.float32(self.data[index:index + self.win_size]), np.float32(
-                self.test_labels[index:index + self.win_size])
-        else:
-            return np.float32(self.data[
-                              index // self.step * self.win_size:index // self.step * self.win_size + self.win_size]), np.float32(
-                self.test_labels[index // self.step * self.win_size:index // self.step * self.win_size + self.win_size])
-
-
-def anomaly_detection_data_provider(data, batch_size, win_size=100, step=100, mode='train'):
-    dataset = SegLoader(data, win_size, 1, mode)
-
-    shuffle = False
-    if mode == "train" or mode == "val":
-        shuffle = True
-
-    data_loader = DataLoader(dataset=dataset,
-                             batch_size=batch_size,
-                             shuffle=shuffle,
-                             num_workers=0,
-                             drop_last=False)
-    return data_loader
 

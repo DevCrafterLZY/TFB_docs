@@ -29,6 +29,12 @@ SIDEBAR_STYLE = {
 
 
 def generate_layout(page_content: Optional[List] = None) -> Component:
+    """
+    Generates the layout for the web application.
+
+    :param page_content: Optional list of components to be displayed in the content area.
+    :return: The complete layout as a Dash Component.
+    """
     sidebar = html.Div(
         [
             html.H2("Menu", className="display-4"),
@@ -54,6 +60,12 @@ def generate_layout(page_content: Optional[List] = None) -> Component:
 
 
 def format_data_columns(df: pd.DataFrame) -> List:
+    """
+    Formats the columns of a DataFrame for display in a Dash DataTable component.
+
+    :param df: The DataFrame to format columns for.
+    :return: A list of dictionaries, each containing column metadata for the DataTable.
+    """
     ret = []
 
     for name, dtype in df.dtypes.items():

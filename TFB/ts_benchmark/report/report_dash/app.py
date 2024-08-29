@@ -28,6 +28,24 @@ logger = logging.getLogger(__name__)
 
 
 def report(report_config: Dict) -> NoReturn:
+    """
+    Generates a report.
+
+    processing log files, computing leaderboard metrics, and serving the
+    report through a Dash web application.
+
+    :param report_config: Dictionary containing the following keys:
+        - log_files_list (List[str] or pd.DataFrame): List of log file paths or a DataFrame.
+        - report_metrics (str or List[str]): Metrics to include in the leaderboard.
+        - aggregate_type (str): Aggregation method for metrics (default is 'mean').
+        - fill_type (str): Method to handle missing values (default is 'mean_value').
+        - null_value_threshold (float): Threshold for dropping columns with too many null values.
+        - host (str): Host address for the web server (default is "0.0.0.0").
+        - port (str): Port number for the web server (default is "12345").
+        - debug (bool): Enable or disable debug mode (default is False).
+
+    :return: None
+    """
     log_files: Union[List[str], pd.DataFrame] = report_config.get("log_files_list")
     if not log_files:
         raise ValueError("No log files to report")
