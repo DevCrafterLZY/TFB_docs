@@ -15,7 +15,6 @@ from ts_benchmark.baselines.time_series_library.utils.tools import (
 from ts_benchmark.baselines.utils import (
     forecasting_data_provider,
     train_val_split,
-    anomaly_detection_data_provider,
     get_time_mark,
 )
 from ts_benchmark.models.model_base import ModelBase, BatchMaker
