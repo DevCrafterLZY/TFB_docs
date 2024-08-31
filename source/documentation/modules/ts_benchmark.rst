@@ -15,9 +15,6 @@ Subpackages
    ts_benchmark.report
    ts_benchmark.utils
 
-Submodules
-----------
-
 ts\_benchmark.pipeline module
 -----------------------------
 
