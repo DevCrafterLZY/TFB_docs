@@ -7,5 +7,3 @@ You can obtain the source code from `GitHub <https://github.com/decisionintellig
    :maxdepth: 3
 
    modules/ts_benchmark
-   modules/recording
-   modules/pipeline

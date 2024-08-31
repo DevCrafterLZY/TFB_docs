@@ -15,3 +15,23 @@ Subpackages
    ts_benchmark.report
    ts_benchmark.utils
 
+Submodules
+----------
+
+ts\_benchmark.pipeline module
+-----------------------------
+
+.. automodule:: ts_benchmark.pipeline
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
+
+ts\_benchmark.recording module
+------------------------------
+
+.. automodule:: ts_benchmark.recording
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :private-members:
