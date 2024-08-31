@@ -4,6 +4,8 @@ Quick Start
 Installation
 ~~~~~~~~~~~~
 
+You can obtain the source code from `GitHub <https://github.com/decisionintelligence/TFB>`_.
+
 From PyPI
 ^^^^^^^^^
 
