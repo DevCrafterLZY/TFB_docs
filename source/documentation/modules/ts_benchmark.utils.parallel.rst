@@ -8,7 +8,6 @@ ts\_benchmark.utils.parallel.base module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.parallel.ray\_backend module
 ------------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.utils.parallel.ray\_backend module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.parallel.sequential\_backend module
 -------------------------------------------------------
@@ -26,5 +24,4 @@ ts\_benchmark.utils.parallel.sequential\_backend module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

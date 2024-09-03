@@ -21,5 +21,4 @@ ts\_benchmark.baselines.utils module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

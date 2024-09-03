@@ -8,4 +8,3 @@ ts\_benchmark.report.utils.leaderboard module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:

@@ -17,5 +17,4 @@ ts\_benchmark.report.report\_csv module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

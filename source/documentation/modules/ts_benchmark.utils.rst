@@ -16,7 +16,6 @@ ts\_benchmark.utils.compress module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.data\_processing module
 -------------------------------------------
@@ -25,7 +24,6 @@ ts\_benchmark.utils.data\_processing module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.design\_pattern module
 ------------------------------------------
@@ -34,7 +32,6 @@ ts\_benchmark.utils.design\_pattern module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.get\_file\_name module
 ------------------------------------------
@@ -43,7 +40,6 @@ ts\_benchmark.utils.get\_file\_name module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.utils.random\_utils module
 ----------------------------------------
@@ -52,5 +48,4 @@ ts\_benchmark.utils.random\_utils module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

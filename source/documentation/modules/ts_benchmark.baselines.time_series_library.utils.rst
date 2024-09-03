@@ -8,7 +8,6 @@ ts\_benchmark.baselines.time\_series\_library.utils.losses module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.utils.masking module
 ------------------------------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.baselines.time\_series\_library.utils.masking module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.utils.timefeatures module
 -----------------------------------------------------------------------
@@ -26,7 +24,6 @@ ts\_benchmark.baselines.time\_series\_library.utils.timefeatures module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.utils.tools module
 ----------------------------------------------------------------
@@ -35,4 +32,3 @@ ts\_benchmark.baselines.time\_series\_library.utils.tools module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:

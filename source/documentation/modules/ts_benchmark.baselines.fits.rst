@@ -10,6 +10,5 @@ ts\_benchmark.baselines.fits.fits module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 

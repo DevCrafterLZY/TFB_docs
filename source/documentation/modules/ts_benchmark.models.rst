@@ -8,7 +8,6 @@ ts\_benchmark.models.model\_base module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.models.model\_loader module
 -----------------------------------------
@@ -17,4 +16,3 @@ ts\_benchmark.models.model\_loader module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:

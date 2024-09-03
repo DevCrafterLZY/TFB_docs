@@ -8,7 +8,6 @@ ts\_benchmark.evaluation.strategy.constants module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.evaluation.strategy.fixed\_forecast module
 --------------------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.evaluation.strategy.fixed\_forecast module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.evaluation.strategy.forecasting module
 ----------------------------------------------------
@@ -26,7 +24,6 @@ ts\_benchmark.evaluation.strategy.forecasting module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.evaluation.strategy.rolling\_forecast module
 ----------------------------------------------------------
@@ -35,7 +32,6 @@ ts\_benchmark.evaluation.strategy.rolling\_forecast module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.evaluation.strategy.strategy module
 -------------------------------------------------
@@ -44,5 +40,4 @@ ts\_benchmark.evaluation.strategy.strategy module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

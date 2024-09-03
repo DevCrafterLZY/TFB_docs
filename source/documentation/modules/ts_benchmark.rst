@@ -22,7 +22,6 @@ ts\_benchmark.pipeline module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.recording module
 ------------------------------
@@ -31,4 +30,3 @@ ts\_benchmark.recording module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:

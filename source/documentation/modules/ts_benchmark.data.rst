@@ -16,7 +16,6 @@ ts\_benchmark.data.data\_pool module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.data.data\_pool\_impl\_base module
 ------------------------------------------------
@@ -25,7 +24,6 @@ ts\_benchmark.data.data\_pool\_impl\_base module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.data.data\_server\_base module
 --------------------------------------------
@@ -34,7 +32,6 @@ ts\_benchmark.data.data\_server\_base module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.data.data\_source module
 --------------------------------------
@@ -43,7 +40,6 @@ ts\_benchmark.data.data\_source module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.data.dataset module
 ---------------------------------
@@ -52,7 +48,6 @@ ts\_benchmark.data.dataset module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.data.utils module
 -------------------------------
@@ -61,5 +56,4 @@ ts\_benchmark.data.utils module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

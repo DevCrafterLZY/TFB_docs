@@ -10,5 +10,4 @@ ts\_benchmark.baselines.darts.darts\_models module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

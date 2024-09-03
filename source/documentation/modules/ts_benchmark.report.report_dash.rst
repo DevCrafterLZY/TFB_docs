@@ -8,7 +8,6 @@ ts\_benchmark.report.report\_dash.app module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.report.report\_dash.layout module
 -----------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.report.report\_dash.layout module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.report.report\_dash.memory module
 -----------------------------------------------
@@ -26,5 +24,4 @@ ts\_benchmark.report.report\_dash.memory module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

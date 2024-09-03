@@ -1,5 +1,5 @@
-Source Code
-===========
+API Reference
+=============
 
 You can obtain the source code from `GitHub <https://github.com/decisionintelligence/TFB>`_.
 

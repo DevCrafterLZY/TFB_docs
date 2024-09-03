@@ -8,5 +8,4 @@ ts\_benchmark.data.suites.global\_storage module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

@@ -8,7 +8,6 @@ ts\_benchmark.baselines.pathformer.utils.Other module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.pathformer.utils.decomposition module
 -------------------------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.baselines.pathformer.utils.decomposition module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.pathformer.utils.masking module
 -------------------------------------------------------
@@ -26,7 +24,6 @@ ts\_benchmark.baselines.pathformer.utils.masking module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.pathformer.utils.metrics module
 -------------------------------------------------------
@@ -35,7 +32,6 @@ ts\_benchmark.baselines.pathformer.utils.metrics module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.pathformer.utils.timefeatures module
 ------------------------------------------------------------
@@ -44,7 +40,6 @@ ts\_benchmark.baselines.pathformer.utils.timefeatures module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.pathformer.utils.tools module
 -----------------------------------------------------
@@ -53,4 +48,3 @@ ts\_benchmark.baselines.pathformer.utils.tools module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:

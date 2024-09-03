@@ -10,5 +10,4 @@ ts\_benchmark.baselines.time\_series\_library.adapters\_for\_transformers module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

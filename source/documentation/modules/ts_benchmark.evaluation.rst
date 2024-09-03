@@ -17,7 +17,6 @@ ts\_benchmark.evaluation.evaluate\_model module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.evaluation.evaluator module
 -----------------------------------------
@@ -26,5 +25,4 @@ ts\_benchmark.evaluation.evaluator module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

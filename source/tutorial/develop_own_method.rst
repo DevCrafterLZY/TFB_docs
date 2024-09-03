@@ -3,8 +3,8 @@
 Develop your own method
 =======================
 
-This is a tutorial for developing your own method. You can refer to the
-following steps:
+This is a tutorial for developing your own method. The example code is :ref:`here <you-own-method>`.
+You can refer to the following steps:
 
 **1. Create a “your_model.py” (or whatever name you prefer, but remember to update the commands in the subsequent sections accordingly) under the ./ts_benchmark/baselines/ directory.**
 

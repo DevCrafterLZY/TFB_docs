@@ -10,5 +10,4 @@ ts\_benchmark.baselines.pathformer.pathformer module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

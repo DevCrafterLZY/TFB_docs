@@ -8,7 +8,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.AutoCorrelation module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Autoformer\_EncDec module
 ------------------------------------------------------------------------------
@@ -17,7 +16,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.Autoformer\_EncDec module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Conv\_Blocks module
 ------------------------------------------------------------------------
@@ -26,7 +24,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.Conv\_Blocks module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Crossformer\_EncDec module
 -------------------------------------------------------------------------------
@@ -35,7 +32,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.Crossformer\_EncDec module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.ETSformer\_EncDec module
 -----------------------------------------------------------------------------
@@ -44,7 +40,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.ETSformer\_EncDec module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Embed module
 -----------------------------------------------------------------
@@ -53,7 +48,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.Embed module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.FourierCorrelation module
 ------------------------------------------------------------------------------
@@ -62,7 +56,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.FourierCorrelation module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.MultiWaveletCorrelation module
 -----------------------------------------------------------------------------------
@@ -71,7 +64,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.MultiWaveletCorrelation mod
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Pyraformer\_EncDec module
 ------------------------------------------------------------------------------
@@ -80,7 +72,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.Pyraformer\_EncDec module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.SelfAttention\_Family module
 ---------------------------------------------------------------------------------
@@ -89,7 +80,6 @@ ts\_benchmark.baselines.time\_series\_library.layers.SelfAttention\_Family modul
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
 ts\_benchmark.baselines.time\_series\_library.layers.Transformer\_EncDec module
 -------------------------------------------------------------------------------
@@ -98,5 +88,4 @@ ts\_benchmark.baselines.time\_series\_library.layers.Transformer\_EncDec module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

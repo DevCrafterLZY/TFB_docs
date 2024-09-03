@@ -8,5 +8,4 @@ ts\_benchmark.common.constant module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 

@@ -10,5 +10,4 @@ ts\_benchmark.baselines.merlion.merlion\_models module
    :members:
    :undoc-members:
    :show-inheritance:
-   :private-members:
 
