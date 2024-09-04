@@ -18,7 +18,7 @@ ts\_benchmark.report.report\_dash.app module
 ts\_benchmark.report.report\_dash.layout module
 -----------------------------------------------
 
-.. automodule:: ts_benchmark.report.report_dash.app
+.. automodule:: ts_benchmark.report.report_dash.layout
    .. rubric:: Functions
    .. autosummary::
 

@@ -24,7 +24,7 @@ ts\_benchmark.models.model\_base module
 ts\_benchmark.models.model\_loader module
 -----------------------------------------
 
-.. automodule:: ts_benchmark.models.model_base
+.. automodule:: ts_benchmark.models.model_loader
    .. rubric:: Functions
    .. autosummary::
 
