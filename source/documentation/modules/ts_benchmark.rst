@@ -27,6 +27,17 @@ ts\_benchmark.recording module
 ------------------------------
 
 .. automodule:: ts_benchmark.recording
+
+   .. rubric:: Functions
+   .. autosummary::
+
+      find_record_files
+      load_record_data
+      read_record_file
+      save_log
+      write_record_file
+
+.. automodule:: ts_benchmark.recording
    :members:
    :undoc-members:
    :show-inheritance:
