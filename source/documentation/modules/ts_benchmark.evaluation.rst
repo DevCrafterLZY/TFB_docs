@@ -35,6 +35,7 @@ ts\_benchmark.evaluation.evaluator module
 -----------------------------------------
 
 .. automodule:: ts_benchmark.evaluation.evaluator
+
    .. rubric:: Functions
    .. autosummary::
 

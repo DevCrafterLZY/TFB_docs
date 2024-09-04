@@ -5,6 +5,7 @@ ts\_benchmark.models.model\_base module
 ---------------------------------------
 
 .. automodule:: ts_benchmark.models.model_base
+
    .. rubric:: Functions
    .. autosummary::
 
@@ -25,6 +26,7 @@ ts\_benchmark.models.model\_loader module
 -----------------------------------------
 
 .. automodule:: ts_benchmark.models.model_loader
+
    .. rubric:: Functions
    .. autosummary::
 
