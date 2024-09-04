@@ -1,6 +1,8 @@
 ts\_benchmark.models package
 ============================
 
+.. _model-base:
+
 ts\_benchmark.models.model\_base module
 ---------------------------------------
 

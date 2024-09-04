@@ -3,7 +3,7 @@
 Develop your own method
 =======================
 
-This is a tutorial for developing your own method. The example code is :ref:`here <you-own-method>`.
+This is a tutorial for developing :ref:`your own method <you-own-method>`.
 You can refer to the following steps:
 
 **1. Create a “your_model.py” (or whatever name you prefer, but remember to update the commands in the subsequent sections accordingly) under the ./ts_benchmark/baselines/ directory.**
@@ -12,7 +12,7 @@ You can refer to the following steps:
 **2. Define your model**
 
 -  The user-implemented model class should inherit the class
-   **ModelBase**
+   :ref:`ModelBase <model-base>`
 
    .. code:: python
 
