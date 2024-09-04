@@ -7,6 +7,14 @@ ts\_benchmark.baselines.pathformer.pathformer module
 ----------------------------------------------------
 
 .. automodule:: ts_benchmark.baselines.pathformer.pathformer
+
+   .. rubric:: Classes
+   .. autosummary::
+
+      Pathformer
+      TransformerConfig
+
+.. automodule:: ts_benchmark.baselines.pathformer.pathformer
    :members:
    :undoc-members:
    :show-inheritance:
