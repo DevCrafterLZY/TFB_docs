@@ -7,6 +7,20 @@ ts\_benchmark.baselines.time\_series\_library.adapters\_for\_transformers module
 --------------------------------------------------------------------------------
 
 .. automodule:: ts_benchmark.baselines.time_series_library.adapters_for_transformers
+
+   .. rubric:: Functions
+   .. autosummary::
+
+      generate_model_factory
+      transformer_adapter
+
+   .. rubric:: Classes
+   .. autosummary::
+
+      TransformerAdapter
+      TransformerConfig
+
+.. automodule:: ts_benchmark.baselines.time_series_library.adapters_for_transformers
    :members:
    :undoc-members:
    :show-inheritance:

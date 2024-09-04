@@ -9,6 +9,18 @@ ts\_benchmark.baselines.self_impl.VAR.VAR module
 ------------------------------------------------
 
 .. automodule:: ts_benchmark.baselines.self_impl.VAR.VAR
+
+   .. rubric:: Functions
+   .. autosummary::
+
+      VAR_model
+
+   .. rubric:: Classes
+   .. autosummary::
+
+      VAR
+
+.. automodule:: ts_benchmark.baselines.self_impl.VAR.VAR
    :members:
    :undoc-members:
    :show-inheritance:
