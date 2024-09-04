@@ -19,6 +19,19 @@ ts\_benchmark.pipeline module
 -----------------------------
 
 .. automodule:: ts_benchmark.pipeline
+
+   .. rubric:: Functions
+   .. autosummary::
+
+      filter_data
+      pipeline
+
+   .. rubric:: Classes
+   .. autosummary::
+
+      DatasetInfo
+
+.. automodule:: ts_benchmark.pipeline
    :members:
    :undoc-members:
    :show-inheritance:
