@@ -14,6 +14,12 @@ ts\_benchmark.report.report\_csv module
 ---------------------------------------
 
 .. automodule:: ts_benchmark.report.report_csv
+   .. rubric:: Functions
+   .. autosummary::
+
+      report
+
+.. automodule:: ts_benchmark.report.report_csv
    :members:
    :undoc-members:
    :show-inheritance:
