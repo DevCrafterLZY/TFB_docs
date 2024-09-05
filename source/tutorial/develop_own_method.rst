@@ -11,7 +11,7 @@ You can refer to the following steps:
 
 **2. Define your model**
 
--  The :ref:`user-implemented model class <you-own-method>`should inherit the class
+-  The :ref:`user-implemented model class <you-own-method>` should inherit the class
    :ref:`ModelBase <model-base>`
 
    .. code:: python
