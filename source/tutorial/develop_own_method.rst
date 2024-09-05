@@ -24,7 +24,7 @@ You can refer to the following steps:
       from ts_benchmark.models.model_base import ModelBase
 
 
-      class VAR(ModelBase):
+      class :ref:`VAR <you-own-method>`(ModelBase)::ref:`ModelBase <model-base>`
           """
           VAR class.
 
