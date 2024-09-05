@@ -23,8 +23,7 @@ You can refer to the following steps:
 
       from ts_benchmark.models.model_base import ModelBase
 
-      class :class:`ts_benchmark.baselines.self_impl.VAR.VAR`:
-      class VAR(ModelBase):
+      class VAR(ModelBase): # See :ref:`you-own-method`
           """
           VAR class.
 
