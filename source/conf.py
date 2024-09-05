@@ -37,6 +37,7 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 html_domain_indices = False
 html_show_sourcelink = False
+add_module_names = False
 autodoc_mock_imports = [
     "darts",
     "einops",
