@@ -48,6 +48,7 @@ The table below provides a visual overview of how TFB's key features compare to 
 
    tutorial/develop_own_method
    tutorial/evaluate_own_time_series
+   tutorial/steps_to_get_predict_and_actual_data
 
 .. toctree::
    :maxdepth: 1
