@@ -11,7 +11,7 @@ ts\_benchmark.baselines.duet.duet module
    .. rubric:: Classes
    .. autosummary::
 
-      DUETS
+      DUET
       TransformerConfig
 
 .. automodule:: ts_benchmark.baselines.duet
