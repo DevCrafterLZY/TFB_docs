@@ -9,6 +9,8 @@ Subpackages
 
    ts_benchmark.baselines.darts
    ts_benchmark.baselines.fits
+   ts_benchmark.baselines.pdf
+   ts_benchmark.baselines.duet
    ts_benchmark.baselines.merlion
    ts_benchmark.baselines.pathformer
    ts_benchmark.baselines.self_impl
